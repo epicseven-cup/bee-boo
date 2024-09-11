@@ -1,0 +1,18 @@
+# The output stream data will be base on the config that has the same name as the yaml / yml file.
+
+default:
+  shoppers: 
+    can_null: false 
+  cart:
+    can_null: false
+
+item:
+  type: String
+
+shoppers:
+  type: Id
+
+cart:
+  type: Array
+  content: item
+  size: 1..90

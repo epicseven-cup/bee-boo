@@ -15,6 +15,5 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-
 	conn.Write()
 }

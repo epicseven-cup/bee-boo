@@ -1,0 +1,8 @@
+service:
+  "example-service-1":
+    port: 8080 
+    steams: 
+      - "/:./data/default.json"
+      - "/yml:./data/default.yml"
+
+
